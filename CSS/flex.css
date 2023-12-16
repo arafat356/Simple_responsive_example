@@ -1,0 +1,40 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: slateblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    margin: 7px;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+}
